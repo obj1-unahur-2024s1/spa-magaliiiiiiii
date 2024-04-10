@@ -5,9 +5,9 @@ object olivia {
 	var concentracion = 6
 	
 	method recirMasajes(){
-		concentracion=0.max(concentracion+3 }
-	
-	method disccutir(){
+		concentracion=0.max(concentracion+3) 
+		}
+	method discutir(){
 		concentracion=0.max( concentracion -1)
 		}
 }
@@ -25,6 +25,8 @@ object bruno{
 	method tomaAgua(){
 		tieneSed= false
 	}
+	
+}
 	
 	
 
