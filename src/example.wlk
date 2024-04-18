@@ -6,7 +6,7 @@ object olivia {
 
 
 /// para que funcione el polimorfismo	
-	method recirMasajes(){
+	method recibirMasajes(){
 		concentracion=0.max(concentracion+3) 
 		}
 	method discutir(){
@@ -26,7 +26,7 @@ object bruno{
 	
 	
 	// para que f(x) el polimorfismo
-	method recirMasajes(){  esFeliz = true}
+	method recibirMasajes(){  esFeliz = true}
 	method banioDeVapor(){
 		peso = 0.max(peso - 500)
 		tieneSed= true}
@@ -54,7 +54,7 @@ object ramiro {
 	method gradoDeContractura(){return contractura}
 	
 	//para que funcione el polimorfismo
-	method recirMasajes(){ contractura= 0.max(contractura-2)}
+	method recibirMasajes(){ contractura= 0.max(contractura-2)}
 	method banioDeVapor(){ tienePielGrasosa= false}
 	
 	
